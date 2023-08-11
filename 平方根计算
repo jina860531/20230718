@@ -1,0 +1,12 @@
+import math
+
+def calculate_square_root(number):
+    if number < 0:
+        return "无法计算负数的平方根"
+    else:
+        return math.sqrt(number)
+
+# 测试
+num = float(input("请输入一个数字: "))
+result = calculate_square_root(num)
+print("平方根结果:", result)
